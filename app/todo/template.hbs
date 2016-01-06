@@ -13,7 +13,9 @@
 	{{#each model as |todo|}}
 		<div class="panel-body">
 		<ul>
-	<li>{{todo.name}}</li>
+	<li>
+	<button class="btn btn-default"{{action "removeTodo" todo}}>x</button>
+	{{todo.name}}</li>
 	</ul>
 		</div>
 	{{/each}}

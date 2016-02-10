@@ -1,7 +1,19 @@
 <nav class="navbar navbar-default">
-  <ul class="nav navbar-nav">
-      <li class="nav-item">{{#link-to "home"}}Home{{/link-to}}</li>
-      <li class="nav-item">{{#link-to "todo"}}Todo{{/link-to}}</li>
-  </ul>
+	<div class="container">
+	<ul class="nav navbar-nav">
+				<li>{{#link-to 'add-post'}}Add Post{{/link-to}}</li>
+		<li>{{#link-to 'blog'}}Blog{{/link-to}}</li>
+	</ul>
+</div>
 </nav>
+<div class="jumbotron">
+	<h2 class="text-center">Ember 2.0 Component Demo</h2>
+</div>
 {{outlet}}
+
+<footer>
+	<div class="container">
+
+		<p class="footer-text"> This was built with EmberJS and Firebase </p>
+	</div>
+</footer>

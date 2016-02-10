@@ -1,0 +1,10 @@
+<div class="container">
+	<div class="row row-centered">
+		<div class="col-md-10 col-centered">
+		<h3>Blogroll</h3>
+  {{#each model.data as |post|}}
+    {{blog-component post=post}}
+  {{/each}}
+		</div>
+	</div>
+</div>

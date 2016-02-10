@@ -4,8 +4,11 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'first-app',
     environment: environment,
-    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com", 
+      'font-src': "'self' fonts.gstatic.com",
+      'style-src': "'self' fonts.googleapis.com" },
     firebase: 'https://techblog.firebaseio.com/',
+    googleFonts: ['Alegreya+Sans:400,500'],
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

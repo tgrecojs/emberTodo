@@ -1,3 +1,7 @@
+body {
+    font-family: 'Alegreya Sans';
+}
+
 .row-centered {
     text-align: center;
 }
@@ -25,6 +29,17 @@
 	text-align: center;
 }
 
+footer {
+    height: 100px;
+    background: teal;
+    color: white;
+}
+
+.footer-text{ 
+    padding: 30px;
+    text-align: center;
+}
+
 .og-bg {
     background-color: green;
     width: 100%;
@@ -35,4 +50,8 @@
 
 .navbar {
 	margin-bottom: 0px;
+}
+
+textarea {
+    height: 150p;
 }

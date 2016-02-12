@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'first-app',
     environment: environment,
-    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com", 
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com http://localhost:4200", 
       'font-src': "'self' fonts.gstatic.com",
       'style-src': "'self' fonts.googleapis.com" },
     firebase: 'https://techblog.firebaseio.com/',
